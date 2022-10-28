@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+$Desaturated-Red: hsl(0, 36%, 70%);
+$Soft-Red: hsl(0, 93%, 68%);
+$Dark-Grayish-Red: hsl(0, 6%, 24%);
+
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Josefin Sans';
+
+        .image-section{
+            img{
+                height: 100vh;
+            }
+        }
+
+        .info-section{
+            padding: 40px 100px 0px 100px;
+
+            .soon{
+                color: $Desaturated-Red;
+                font-weight: 300;
+
+                .coming{
+                    color: $Dark-Grayish-Red;
+                    font-weight: 600;
+                }
+            }
+
+            .store-logo{
+                padding-bottom: 100px;
+            }
+
+            p{
+                color: $Desaturated-Red;
+            }
+
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
