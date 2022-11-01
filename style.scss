@@ -24,7 +24,7 @@ html, body{
         }
 
         .info-section{
-            padding: 40px 100px 0px 100px;
+            padding: 40px 250px 0px 150px;
 
             .soon{
                 color: $Desaturated-Red;
@@ -37,16 +37,47 @@ html, body{
             }
 
             .store-logo{
-                padding-bottom: 100px;
+                padding-bottom: 90px;
             }
 
             p{
                 color: $Desaturated-Red;
+                padding: 10px 0px 10px 0px;
             }
 
             h1{
-                font-size: 40px;
+                font-size: 60px;
             }
+
+            .storeForm{
+                position: relative;
+
+                .emailInput{
+                    border-radius: 20px;
+                    border-color: $Desaturated-Red;
+                    border-width: 1px;
+                    border-style: solid;
+                    height: 48px;
+                    width: 100%;
+
+                    &::placeholder{
+                        color: $Desaturated-Red;
+                        padding-left: 20px;
+                    }
+                }
+
+                .formButton{
+                    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)); 
+                    border-radius: 20px;
+                    position: absolute;
+                    right: 0%;
+                    width: 80px;
+                    height: 48px;
+                    border: none;
+                }
+            }
+
+            
         }
     }
 }

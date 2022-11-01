@@ -16,7 +16,7 @@ html main .image-section img, body main .image-section img {
   height: 100vh;
 }
 html main .info-section, body main .info-section {
-  padding: 40px 100px 0px 100px;
+  padding: 40px 250px 0px 150px;
 }
 html main .info-section .soon, body main .info-section .soon {
   color: hsl(0deg, 36%, 70%);
@@ -27,11 +27,44 @@ html main .info-section .soon .coming, body main .info-section .soon .coming {
   font-weight: 600;
 }
 html main .info-section .store-logo, body main .info-section .store-logo {
-  padding-bottom: 100px;
+  padding-bottom: 90px;
 }
 html main .info-section p, body main .info-section p {
   color: hsl(0deg, 36%, 70%);
+  padding: 10px 0px 10px 0px;
 }
 html main .info-section h1, body main .info-section h1 {
-  font-size: 40px;
+  font-size: 60px;
+}
+html main .info-section .storeForm, body main .info-section .storeForm {
+  position: relative;
+}
+html main .info-section .storeForm .emailInput, body main .info-section .storeForm .emailInput {
+  border-radius: 20px;
+  border-color: hsl(0deg, 36%, 70%);
+  border-width: 1px;
+  border-style: solid;
+  height: 48px;
+  width: 100%;
+}
+html main .info-section .storeForm .emailInput::-moz-placeholder, body main .info-section .storeForm .emailInput::-moz-placeholder {
+  color: hsl(0deg, 36%, 70%);
+  padding-left: 20px;
+}
+html main .info-section .storeForm .emailInput:-ms-input-placeholder, body main .info-section .storeForm .emailInput:-ms-input-placeholder {
+  color: hsl(0deg, 36%, 70%);
+  padding-left: 20px;
+}
+html main .info-section .storeForm .emailInput::placeholder, body main .info-section .storeForm .emailInput::placeholder {
+  color: hsl(0deg, 36%, 70%);
+  padding-left: 20px;
+}
+html main .info-section .storeForm .formButton, body main .info-section .storeForm .formButton {
+  background-image: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  border-radius: 20px;
+  position: absolute;
+  right: 0%;
+  width: 80px;
+  height: 48px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
