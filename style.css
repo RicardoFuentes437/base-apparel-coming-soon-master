@@ -59,6 +59,10 @@ html main .info-section .storeForm .emailInput::placeholder, body main .info-sec
   color: hsl(0deg, 36%, 70%);
   padding-left: 20px;
 }
+html main .info-section .storeForm .emailInput:focus, body main .info-section .storeForm .emailInput:focus {
+  border: none;
+  outline: none;
+}
 html main .info-section .storeForm .formButton, body main .info-section .storeForm .formButton {
   background-image: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
   border-radius: 20px;
