@@ -33,6 +33,19 @@ html main .info-section p, body main .info-section p {
   color: hsl(0deg, 36%, 70%);
   padding: 10px 0px 10px 0px;
 }
+html main .info-section .warning-message, body main .info-section .warning-message {
+  color: hsl(0deg, 93%, 68%);
+  font-size: 12px;
+  padding-left: 10px;
+  opacity: 0;
+}
+html main .info-section .icon-error, body main .info-section .icon-error {
+  position: absolute;
+  width: 20px;
+  left: 330px;
+  top: 15px;
+  opacity: 0;
+}
 html main .info-section h1, body main .info-section h1 {
   font-size: 60px;
 }
@@ -46,6 +59,7 @@ html main .info-section .storeForm .emailInput, body main .info-section .storeFo
   border-style: solid;
   height: 48px;
   width: 100%;
+  padding-left: 20px;
 }
 html main .info-section .storeForm .emailInput::-moz-placeholder, body main .info-section .storeForm .emailInput::-moz-placeholder {
   color: hsl(0deg, 36%, 70%);
