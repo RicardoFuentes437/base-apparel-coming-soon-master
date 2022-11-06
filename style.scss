@@ -40,6 +40,10 @@ html, body{
                 padding-bottom: 90px;
             }
 
+            .hero-mobile{
+                display: none;
+            }
+
             p{
                 color: $Desaturated-Red;
                 padding: 10px 0px 10px 0px;
@@ -55,7 +59,7 @@ html, body{
             .icon-error{
                 position: absolute;
                 width: 20px;
-                left: 330px;
+                right: 100px;
                 top: 15px;
                 opacity: 0;
             }
@@ -99,6 +103,48 @@ html, body{
             }
 
             
+        }
+    }
+
+    @media (max-width: 1300px) {
+        main{
+            .info-section{
+                padding: 40px 200px 0px 100px;
+            }
+        }
+    }
+
+    @media (max-width: 1200px) {
+        main{
+            .info-section{
+                padding: 40px 50px 0px 50px;
+            }
+        }
+    }
+
+    @media (max-width: 965px) {
+        main{
+            height: fit-content;
+            text-align: center;
+
+            .info-section{
+                padding: 40px 50px 0px 50px;
+
+                .store-logo{
+                    padding-bottom: 50px;
+                }
+
+                .hero-mobile{
+                    display: block;
+                    padding-bottom: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .image-section{
+                display: none;
+            }
         }
     }
 }
