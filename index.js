@@ -28,7 +28,7 @@ form.addEventListener('submit', function(event){
         message.style.opacity = 1;
         error.style.opacity = 1; 
     }else{
-        console.log('correct');
+        input.value = '';
     }
     
 })
